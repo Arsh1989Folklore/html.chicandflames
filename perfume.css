@@ -1,0 +1,168 @@
+body{
+    margin:0;
+    padding:0;
+}
+#rosevideo{
+height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+@media (min-width:1242px) and (min-height:611px){
+    .content {
+            position: absolute;
+            font-family: 'Playfair Display', serif;
+            bottom: 10vmax;
+            left: 50%;
+            right: 50%;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            text-align: center;
+            max-width: 525px;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .contenthead {
+            font-weight: 700;
+            font-size: 5vmin;
+            line-height: 1.5;
+            color: white;
+        }
+    
+        .disc {
+            font-family: 'Playfair Display', serif;
+            font-weight: 400;
+            font-size: 3vmin;
+            word-spacing: 5px;
+            line-height: 1.2;
+            width: 493px;
+            color: white;
+        }
+    
+        .content button {
+            font-family: 'Playfair Display', serif;
+            font-weight: 400;
+            font-size: 2.5vmin;
+            word-spacing: 5px;
+            line-height: 1.2;
+            color: white;
+            height: 6vmin;
+            width: 7vw;
+            border: none;
+            border-radius: 10%;
+            background-color: rgba(0, 0, 0, 0.25);
+        }
+        .navbar{
+            /*position: fixed;*/
+            display: flex;
+            flex-wrap: none;
+            align-items: center;
+            justify-content: space-between;
+            height:auto;
+            width:100%;
+
+        }
+        .logo{
+            font-family: 'Playfair Display', serif;
+            font-size: 4.5vmin;
+            padding-left: 2vw;
+        }
+        .list{
+            width:50vw;
+            list-style:none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .listitems{
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2vw;
+
+        }
+    
+}
+
+
+@media (max-width:1242px) or (max-height:611px)
+{
+    .content {
+            font-family: 'Playfair Display', serif;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .contenthead {
+            text-align: center;
+            font-weight: 700;
+            font-size: 5vmin;
+            line-height: 1.5;
+            color: #000;
+        }
+    
+        .disc {
+            max-width:85vw;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-weight: 400;
+            font-size: 3vmin;
+            word-spacing: 5px;
+            line-height: 1.2;
+            width: 493px;
+            color: #000;
+        }
+    
+        .content button {
+            font-family: 'Playfair Display', serif;
+            font-weight: 400;
+            font-size: 3vw;
+            word-spacing: 5px;
+            line-height: 1.2;
+            color: #000;
+            height: 6vmin;
+            width: 20vw;
+            border: none;
+            border-radius: 10%;
+            background-color: rgba(0, 0, 0, 0.25);
+        }
+                  .navbar {
+                      /*position: fixed;*/
+                      display: flex;
+                      flex-wrap: none;
+                      align-items: center;
+                      justify-content: center;
+                      height: auto;
+                      width: 100%;
+        
+                  }
+        
+                  .logo {
+                      font-family: 'Playfair Display', serif;
+                      font-size: 4.5vmin;
+                      padding-left: 2vw;
+                      align-self: center;
+                  }
+        
+                  .list {
+                      width: 50vw;
+                      list-style: none;
+                      display: flex;
+                      justify-content: space-around;
+                      align-items: center;
+                      display: none;
+                  }
+        
+                  .listitems {
+                      font-family: 'Playfair Display', serif;
+                      font-size: 1.2vw;
+                      display: none;
+        
+                  }
+
+}
